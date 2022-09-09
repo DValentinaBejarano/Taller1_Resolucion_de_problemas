@@ -20,13 +20,13 @@ item.addEventListener('mouseover', activeLink))
 
 //Sección ejercicios
 //Convertir
-const boton = document.getElementById('Convertir');
+let boton = document.getElementById('Convertir');
 
 boton.addEventListener('click', function()
 {
-    const rango = document.getElementById('primerOp').value;
-    const rango1 = document.getElementById('segundaOp').value;
-    const grados = document.getElementById('termino').value;
+    let rango = document.getElementById('primerOp').value;
+    let rango1 = document.getElementById('segundaOp').value;
+    let grados = document.getElementById('termino').value;
     parseInt(rango, rango1);
     parseFloat(grados);
 

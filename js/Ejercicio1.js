@@ -23,7 +23,7 @@ let tamaño = document.getElementById('longitud');
 
 tamaño.addEventListener('click', function()
 {
-    const palabra = document.getElementById('enunciado').value;
+    let palabra = document.getElementById('enunciado').value;
     alert(`La palabra que usted ingreso es: ${palabra} y la longitud es: ${palabra.length}`);
 });
 
@@ -32,7 +32,7 @@ let pMayus = document.getElementById('mayuscula');
 
 pMayus.addEventListener('click', function()
 {
-    const palabra = document.getElementById('enunciado').value;
+    let palabra = document.getElementById('enunciado').value;
     alert(`En mayúscula es: ${palabra.toUpperCase()}`);
 });
 
@@ -41,7 +41,7 @@ let pMinus = document.getElementById('minusculas');
 
 pMinus.addEventListener('click', function()
 {
-    const palabra = document.getElementById('enunciado').value;
+    let palabra = document.getElementById('enunciado').value;
     alert(`En minúscula es: ${palabra.toLowerCase()}`);
 });
 
@@ -50,6 +50,6 @@ let pCaracter = document.getElementById('primerCaracter');
 
 pCaracter.addEventListener('click',function()
 {
-    const palabra = document.getElementById('enunciado').value;
+    let palabra = document.getElementById('enunciado').value;
     alert(`El primer cáracter es: ${palabra.charAt()}`);
 });
