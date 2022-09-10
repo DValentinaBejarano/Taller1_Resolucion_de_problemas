@@ -227,6 +227,246 @@ body
     object-fit: cover;
 }
 
+.button{
+    background-color: #287bff;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 hsla(214, 71%, 38%, 0.479);
+    box-shadow: 0 10px 30px 0 hsla(214, 81%, 63%, 0.623);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#termino {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 #5692ed;
+    box-shadow: 0 10px 30px 0 #56b1ed;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Card */
+
+.card__copy{
+    margin-top: 20px;
+}
+
+.card{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.card__container{
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+}
+
+#separadorC{
+    margin-top: 3%;
+}
+
+#separadorR{
+    margin-top: 3%;
+}
+
+.card__item{
+    padding: 20px;
+    background: rgb(210, 229, 247);
+    border-top: 5px solid #287bff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    width: 45%;
+}
+
+.card__picture{
+    background: var(--color-primary);
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangulo{
+    background: var(--color-primary);
+    margin-top: 20px;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card__title{
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.card__paragraph{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card__item:nth-last-of-type(1){
+    grid-area: card1;
+}
+
+.card__item:nth-last-of-type(2){
+    grid-area: card2;
+}
+
+.card__item:nth-last-of-type(3){
+    grid-area: card3;
+}
+
+.card__item:nth-last-of-type(4){
+    grid-area: card4;
+}
+
+/*Modal*/
+img.card-img-top {
+    width: 43%;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.7);
+    width: 140em;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+    padding-top: 200px;
+    display: none;
+}
+
+.contenidoModal{
+    background-color: #FFFFFF;
+    width: 53%;
+    position: relative;
+    padding: 1rem;
+    margin-left: 17%;
+    border-radius: 1%;
+
+}
+
+.contenidoModal .form-group {
+    width: 100%;
+}
+
+/*Cerrar modal circulo*/
+.cerrarModalC{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalC:hover{
+    cursor: pointer;
+}
+
+
+.cerrarModal{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModal:hover{
+    cursor: pointer;
+}
+
+
+/*Cerrar modal triangulo*/
+.cerrarModalT{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalT:hover{
+    cursor: pointer;
+}
+
+.cerrarModalT2{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalT2:hover{
+    cursor: pointer;
+}
+
+/*Cerrar modal cuadrado*/
+.cerrarModalCu{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalCu:hover{
+    cursor: pointer;
+}
+
+.cerrarModalCu2{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalCu2:hover{
+    cursor: pointer;
+}
+
+
+/*Cerrar modal rectangulo*/
+.cerrarModalR{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalR:hover{
+    cursor: pointer;
+}
+
+.cerrarModalR2{
+    font-size: 2rem;
+    float: right;  
+}
+
+.cerrarModalR2:hover{
+    cursor: pointer;
+}
+
 @media (max-width: 991px){
     
     .navigation

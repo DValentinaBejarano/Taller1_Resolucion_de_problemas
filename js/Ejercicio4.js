@@ -17,48 +17,167 @@ function activeLink(){
 list.forEach((item)=>
 item.addEventListener('mouseover', activeLink))
 
-/*Sección ejercicios
-const consultar = document.getElementById('consultar');
+//Sección ejercicios
+    const consultar = document.getElementById('consultar');
 
-consultar.addEventListener('click', function () {
+    consultar.addEventListener('click', function () {
     const opcionN = document.getElementById('opcionN').value;
     const opcionA = document.getElementById('opcionA').value;
     const opcionAc = document.getElementById('opcionAc').value;
     parseInt(opcionN, opcionA, opcionAc);
 
-    //Tatiana Cabrera
+    //Profe tatiana
         if (opcionN == 1 && opcionA == 6 && opcionAc == 11) {
         alert(`Respuesta correcta`);
-        }else{
+        }
+
+        //Respuesta incorrecta
+        else if (opcionN != 1 && opcionA != 6 && opcionAc == 11) {
+        alert(`Respuesta incorrecta`);
+        }
+
+        else if (opcionN == 1 && opcionA != 6 && opcionAc != 11) {
             alert(`Respuesta incorrecta`);
         }
 
-    //Carolina Forero  
-        if (opcionN == 2 && opcionA == 7 && opcionAc == 12) {
-        alert(`Respuesta correcta`);
-        }else{
+        else if (opcionN == 1 && opcionA != 6 && opcionAc == 11) {
+            alert(`Respuesta incorrecta`);
+        }
+
+        else if (opcionN == 1 && opcionA == 6 && opcionAc != 11) {
+            alert(`Respuesta incorrecta`);
+        }
+
+        else if (opcionN == 1 && opcionA == 6 && opcionAc != 11) {
+            alert(`Respuesta incorrecta`);
+        }
+
+        else if (opcionN != 1 && opcionA == 6 && opcionAc == 11) {
             alert(`Respuesta incorrecta`);
         }
     
-    //Yaneth Castillo
-        if (opcionN == 3 && opcionA == 8 && opcionAc == 13) {
-        alert(`Respuesta correcta`);
-        }else{
-            alert(`Respuesta incorrecta`);
+
+
+    //Profe Carolina
+        else if (opcionN == 2 && opcionA == 7 && opcionAc == 12) {
+        alert('Respuesta correcta')
         }
+
+        //Respuesta incorrecta
+        else if (opcionN != 2 && opcionA != 7 && opcionAc == 12) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 2 && opcionA != 7 && opcionAc != 12) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 2 && opcionA == 7 && opcionAc != 12) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 2 && opcionA == 7 && opcionAc != 12) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 2 && opcionA == 7 && opcionAc == 12) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 2 && opcionA != 7 && opcionAc == 12) {
+            alert('Respuesta incorrecta')
+        }
+
         
-    //Fernando Galindo
-        if (opcionN == 4 && opcionA == 9 && opcionAc == 14) {
-        alert(`Respuesta correcta`);
-        }else{
-            alert(`Respuesta incorrecta`);
+    //Profe yaneth
+        else if (opcionN == 3 && opcionA == 8 && opcionAc == 13) {
+            alert('Respuesta correcta')
         }
 
-    //Cristian Buitrago
-         if (opcionN == 5 && opcionA == 10 && opcionAc == 15) {
-        alert(`Respuesta correcta`);
-        }else{
-            alert(`Respuesta incorrecta`);
+        //Respuestas incorrectas
+        else if (opcionN != 3 && opcionA != 8 && opcionAc == 13) {
+            alert('Respuesta incorrecta')
         }
 
-})*/
+        else if (opcionN == 3 && opcionA != 8 && opcionAc != 13) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN !== 3 && opcionA == 8 && opcionAc != 13) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 3 && opcionA == 8 && opcionAc != 13) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 3 && opcionA == 8 && opcionAc == 13) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 3 && opcionA != 8 && opcionAc == 13) {
+            alert('Respuesta incorrecta')
+        }
+
+    //Profe fernando
+        else if (opcionN == 4 && opcionA == 9 && opcionAc == 14) {
+            alert('Respuesta correcta')
+        }
+
+        //Respuestas incorrectas
+        else if (opcionN != 4 && opcionA != 9 && opcionAc == 14) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 4 && opcionA != 9 && opcionAc != 14) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 4 && opcionA == 9 && opcionAc != 14) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 4 && opcionA == 9 && opcionAc != 14) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 4 && opcionA == 9 && opcionAc == 14) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 4 && opcionA != 9 && opcionAc == 14) {
+            alert('Respuesta incorrecta')
+        }
+
+
+    //Profe Cristian  
+        else if (opcionN == 5 && opcionA == 10 && opcionAc == 15) {
+            alert('Respuesta correcta')
+        }
+
+        //Respuestas incorrectas
+        else if (opcionN != 5 && opcionA != 10 && opcionAc == 15) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 5 && opcionA != 10 && opcionAc != 15) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 5 && opcionA == 10 && opcionAc != 15) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 5 && opcionA == 10 && opcionAc != 15) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN != 5 && opcionA == 10 && opcionAc == 15) {
+            alert('Respuesta incorrecta')
+        }
+
+        else if (opcionN == 5 && opcionA != 10 && opcionAc == 15) {
+            alert('Respuesta incorrecta')
+        }
+
+})

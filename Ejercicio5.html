@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller 1</title>
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/Ejercicio5.css">
 </head>
 <body>
     <div class="container">
@@ -70,8 +70,122 @@
                     <img src="img/perfil.png">
                 </div>
             </div>
+            <!--Circulo-->
+            <section class="card">
+                <div class="card__container">
+                    <div class="card__item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/32/32341.png" class="card__picture">
+                        <h3 class="card__title">Círculo</h3>
+                        <button id="perimetroC" href="#" class="button">Perímetro</button>
+                        <button id="areaC" href="#" class="button">Área</button>
+                    </div>
+                    <!--Modal-->
+                    <div id="perimetroCirculo" class="modal">
+                        <div class="contenidoModal">
+                        <span class="cerrarModalC"><ion-icon name="close-circle-outline"></ion-icon></span>
+                        <h2>Área</h2>
+                        <div class="form-group">
+                            <input id="radio" type="number" class="form-control" placeholder="Ingresa el radio del circulo">
+                            <button id="calcularPC" type="button" class="button">Calcular</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="areaCirculo" class="modal">
+                        <div class="contenidoModal">
+                            <span class="cerrarModal"><ion-icon name="close-circle-outline"></ion-icon></span>
+                        <h2>Área</h2>
+                        <div class="form-group">
+                            <input id="radio" type="number" class="form-control" placeholder="Ingresa el radio del circulo">
+                            <button id="calcularAC" type="button" class="button">Calcular</button>
+                        </div>
+                        </div>
+                    </div>
+    
+
+             <!--Triangulo-->
+                        <div class="card__item">
+                            <figure class="card__img">
+                                <img src="https://static.vecteezy.com/system/resources/previews/001/200/691/non_2x/triangle-png.png" class="card__picture">
+                            </figure>
+                            <h3 class="card__title">Triángulo</h3>
+                            <button id="perimetroT" href="#" class="button">Perímetro</button>
+                            <button id="areaT" href="#" class="button">Área</button>
+                        </div>
+                    <!--Modal-->
+                        <div id="perimetroTriangulo" class="modal">
+                            <div class="contenidoModal">
+                                <span class="cerrarModalT"><ion-icon name="close-circle-outline"></ion-icon></span>
+                            <h2>Perímetro</h2>
+                            <div class="form-group">
+                                <input id="lado1" type="number" class="form-control" placeholder="Ingresa el primer lado del triangulo">
+                                <input id="lado2" type="number" class="form-control" placeholder="Ingresa el segundo lado del triangulo">
+                                <input id="lado3" type="number" class="form-control" placeholder="Ingresa el tercer lado del triangulo">
+                                <button id="calcularPT" type="button" class="button">Calcular</button>
+                            </div>
+                            </div>
+                        </div>
+                        <div id="areaTriangulo" class="modal">
+                            <div class="contenidoModal">
+                                <span class="cerrarModalT2"><ion-icon name="close-circle-outline"></ion-icon></span>
+                            <h2>Área</h2>
+                            <div class="form-group">
+                                <input id="baseT" type="number" class="form-control" placeholder="Ingresa la base del triangulo">
+                                <input id="alturaT" type="number" class="form-control" placeholder="Ingresa la altura lado del triangulo">
+                                <button id="calcularAT" type="button" class="button">Calcular</button>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div id="separadorR" class="card__item">
+                            <figure class="card__img">
+                                <img src="https://cdn-icons-png.flaticon.com/512/650/650139.png" class="rectangulo">
+                            </figure>
+                            <h3 class="card__title">Rectángulo</h3>
+                            <button id="perimetroC" href="#" class="button">Perímetro</button>
+                            <button id="areaC" href="#" class="button">Área</button>
+                        </div>
+                        
+
+
+            <!--Cuadrado-->
+                        <div id="separadorC"class="card__item">
+                            <figure class="card__img">
+                                <img src="https://cdn-icons-png.flaticon.com/512/650/650139.png" class="card__picture">
+                            </figure>
+                            <h3 class="card__title">Cuadrado</h3>
+                            <button id="perimetroCu" href="#" class="button">Perímetro</button>
+                            <button id="areaCu" href="#" class="button">Área</button>
+                        </div>
+                    <!--Modal-->
+                        <div id="perimetroCuadrado" class="modal">
+                            <div class="contenidoModal">
+                            <span class="cerrarModalCu"><ion-icon name="close-circle-outline"></ion-icon></span>
+                            <h2>Perímetro</h2>
+                            <div class="form-group">
+                                <input id="ladoC" type="number" class="form-control" placeholder="Ingresa el lado del cuadrado">
+                                <button id="calcularPCu" type="button" class="button">Calcular</button>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div id="areaCuadrado" class="modal">
+                            <div class="contenidoModal">
+                            <span class="cerrarModalCu2"><ion-icon name="close-circle-outline"></ion-icon></span>
+                            <h2>Área</h2>
+                            <div class="form-group">
+                                <input id="ladoCA" type="number" class="form-control" placeholder="Ingresa el lado del cuadrado">
+                                <button id="calcularACu" type="button" class="button">Calcular</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
+
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/Ejercicio5.js"></script>
