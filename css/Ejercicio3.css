@@ -247,6 +247,7 @@ body
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    width: 90%;
 }
 
 .button{
@@ -274,9 +275,28 @@ body
 #container{
     display: flex;
     flex-direction: column;
+    width: 25%;
     margin: 0 auto;
+    margin-top: 8%;
 }
 
+.imgTri{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+#centrar{
+    text-align: center;
+}
 
 @media (max-width: 991px){
     

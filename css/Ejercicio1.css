@@ -294,6 +294,12 @@ body
     margin: 0 auto;
 }
 
+.imgP{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -5%;
+}
+
 @media (max-width: 991px){
     
     .navigation

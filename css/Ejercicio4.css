@@ -227,6 +227,99 @@ body
     object-fit: cover;
 }
 
+.button{
+    background-color: #287bff;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 hsla(214, 71%, 38%, 0.479);
+    box-shadow: 0 10px 30px 0 hsla(214, 81%, 63%, 0.623);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#opcionN{
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    width: 90%;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 #5692ed;
+    box-shadow: 0 10px 30px 0 #56b1ed;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+#opcionA{
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    width: 90%;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 #5692ed;
+    box-shadow: 0 10px 30px 0 #56b1ed;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+#opcionAc{
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    width: 90%;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 #5692ed;
+    box-shadow: 0 10px 30px 0 #56b1ed;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.label{
+    text-align: center;
+}
+
+.imgPro{
+    width: 15%;
+    margin-left: 42%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.letras{
+    font-size: 1.5em;
+    text-align-last: center;
+}
+
 @media (max-width: 991px){
     
     .navigation
