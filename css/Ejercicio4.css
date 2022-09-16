@@ -248,7 +248,7 @@ body
     transition: all 0.3s ease-in-out;
 }
 
-#opcionN{
+#Nombre{
     background-color: #ffffff;
     border: none;
     color: black;
@@ -264,7 +264,7 @@ body
     margin: 5px 20px 40px 20px;
 }
 
-#opcionA{
+#Apellido{
     background-color: #ffffff;
     border: none;
     color: black;
@@ -280,7 +280,7 @@ body
     margin: 5px 20px 40px 20px;
 }
 
-#opcionAc{
+#Materia{
     background-color: #ffffff;
     border: none;
     color: black;
@@ -315,7 +315,7 @@ body
     margin-top: 3%;
 }
 
-.letras{
+.opcion{
     font-size: 1.5em;
     text-align-last: center;
 }

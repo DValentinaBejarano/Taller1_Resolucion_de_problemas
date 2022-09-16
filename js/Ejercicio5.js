@@ -78,15 +78,15 @@ item.addEventListener('mouseover', activeLink))
 //Triangulo
     //perimetro
     let perimetroT=document.getElementById("perimetroT");
-    let perimetroTriangulo=document.getElementById("perimetroTriangulo");
-    let cerrarModalT=document.querySelector(".cerrarModalT");
+    let perimetroTri=document.getElementById("perimetroTri");
+    let cerrarModalTri=document.querySelector(".cerrarModalTri");
 
     perimetroT.addEventListener("click",()=>{
-        perimetroTriangulo.style.display="block";
+        perimetroTri.style.display="block";
     })
 
-    cerrarModalT.addEventListener("click",()=>{
-        perimetroTriangulo.style.display="none"; 
+    cerrarModalTri.addEventListener("click",()=>{
+        perimetroTri.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
@@ -110,15 +110,15 @@ item.addEventListener('mouseover', activeLink))
 
     //Area
     let areaT=document.getElementById("areaT");
-    let areaTriangulo=document.getElementById("areaTriangulo");
-    let cerrarModalT2=document.querySelector(".cerrarModalT2");
+    let areaTri=document.getElementById("areaTri");
+    let cerrarModalTri2=document.querySelector(".cerrarModalTri2");
 
     areaT.addEventListener("click",()=>{
-        areaTriangulo.style.display="block";
+        areaTri.style.display="block";
     })
 
-    cerrarModalT2.addEventListener("click",()=>{
-        areaTriangulo.style.display="none"; 
+    cerrarModalTri2.addEventListener("click",()=>{
+        areaTri.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
@@ -141,15 +141,15 @@ item.addEventListener('mouseover', activeLink))
 //Cuadrado
     //perimetro
     let perimetroCu=document.getElementById("perimetroCu");
-    let perimetroCuadrado=document.getElementById("perimetroCuadrado");
-    let cerrarModalCu=document.querySelector(".cerrarModalCu");
+    let perimetroCua=document.getElementById("perimetroCua");
+    let cerrarModalCua=document.querySelector(".cerrarModalCua");
 
     perimetroCu.addEventListener("click",()=>{
-        perimetroCuadrado.style.display="block";
+        perimetroCua.style.display="block";
     })
 
-    cerrarModalCu.addEventListener("click",()=>{
-        perimetroCuadrado.style.display="none"; 
+    cerrarModalCua.addEventListener("click",()=>{
+        perimetroCua.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
@@ -170,15 +170,15 @@ item.addEventListener('mouseover', activeLink))
 
     //Area
     let areaCu=document.getElementById("areaCu");
-    let areaCuadrado=document.getElementById("areaCuadrado");
-    let cerrarModalCu2=document.querySelector(".cerrarModalCu2");
+    let areaCua=document.getElementById("areaCua");
+    let cerrarModalCua2=document.querySelector(".cerrarModalCua2");
 
     areaCu.addEventListener("click",()=>{
-        areaCuadrado.style.display="block";
+        areaCua.style.display="block";
     })
 
-    cerrarModalCu2.addEventListener("click",()=>{
-        areaCuadrado.style.display="none"; 
+    cerrarModalCua2.addEventListener("click",()=>{
+        areaCua.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
@@ -198,21 +198,21 @@ item.addEventListener('mouseover', activeLink))
 
 //Rectangulo
     //perimetro
-    let perimetroR=document.getElementById("perimetroR");
-    let perimetroRectangulo=document.getElementById("perimetroRectangulo");
-    let cerrarModalR=document.querySelector(".cerrarModalR");
+    let perimetroRec=document.getElementById("perimetroRec");
+    let perimetroRectan=document.getElementById("perimetroRectan");
+    let cerrarModalRec=document.querySelector(".cerrarModalRec");
 
-    perimetroR.addEventListener("click",()=>{
-        perimetroRectangulo.style.display="block";
+    perimetroRec.addEventListener("click",()=>{
+        perimetroRectan.style.display="block";
     })
 
-    cerrarModalR.addEventListener("click",()=>{
-        perimetroRectangulo.style.display="none"; 
+    cerrarModalRec.addEventListener("click",()=>{
+        perimetroRectan.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
-        if(e.target==perimetroR){
-            perimetroR.style.display="flex"; 
+        if(e.target==perimetroRec){
+            perimetroRec.style.display="flex"; 
         }
     })
 
@@ -227,21 +227,21 @@ item.addEventListener('mouseover', activeLink))
     })
 
     //Area
-    let areaR=document.getElementById("areaR");
-    let areaRectangulo=document.getElementById("areaRectangulo");
-    let cerrarModalR2=document.querySelector(".cerrarModalR2");
+    let areaRec=document.getElementById("areaRec");
+    let areaRectan=document.getElementById("areaRectan");
+    let cerrarModalRec2=document.querySelector(".cerrarModalRec2");
 
-    areaR.addEventListener("click",()=>{
-        areaRectangulo.style.display="block";
+    areaRec.addEventListener("click",()=>{
+        areaRectan.style.display="block";
     })
 
-    cerrarModalR2.addEventListener("click",()=>{
-        areaRectangulo.style.display="none"; 
+    cerrarModalRec2.addEventListener("click",()=>{
+        areaRectan.style.display="none"; 
     })
 
     window.addEventListener("click",(e)=>{
-        if(e.target==areaR){
-            areaR.style.display="flex"; 
+        if(e.target==areaRec){
+            areaRec.style.display="flex"; 
         }
     })
 

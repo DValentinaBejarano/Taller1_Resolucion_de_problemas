@@ -316,11 +316,9 @@ body
         width: 100%;
         left: 0;
     }
-    .main.active
-    {
-        left: 300px;
+    .main.active {
+        left: 250px;
     }
-    
 }
 
 @media (max-width: 410px){
@@ -1267,8 +1265,7 @@ body
     }
     .main.active .toggle
     {
-        position: fixed;
-        left: 8%;
+        left: 1.5%;
         color: #000;
     }
 
@@ -1283,15 +1280,11 @@ body
     }
 
     .main.active .search label input{
-        margin-left: 45%;
-    }
-
-    .main.active .search label input{
-        margin-left: 45%;
+        margin-left: 7%;
     }
 
     .main.active .icono{
-        margin-left: 31%;
+        margin-left: 7%;
     }
 
     .search label input {
@@ -1318,7 +1311,7 @@ body
     #enunciado {
         margin-top: 10%;
         margin-left: -63%;
-        width: 37em;
+        width: 37em; 
     }
     .button {
         margin-left: -41%;
