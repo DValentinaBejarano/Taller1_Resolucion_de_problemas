@@ -372,3 +372,983 @@ body
     
 
 }
+
+@media (min-width:320px) and (max-width:400px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -70%;
+        width: 250%;
+    }
+    #Nombre{
+        width: 18em;
+        margin-left: -5em;
+    }
+    #Apellido{
+        width: 18em;
+        margin-left: -5em;
+    }
+    #Materia{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .button {
+        width: 18em;
+        margin-left: -5em;
+    }
+    .imgPro {
+        width: 40%;
+        margin-left: 31%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 35px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:401px) and (max-width:500px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -70%;
+        width: 250%;
+    }
+    #Nombre{
+        width: 20em;
+        margin-left: -5em;
+    }
+    #Apellido{
+        width: 20em;
+        margin-left: -5em;
+    }
+    #Materia{
+        width: 20em;
+        margin-left: -5em;
+    }
+    .button {
+        width: 20em;
+        margin-left: -5em;
+    }
+    .imgPro {
+        width: 40%;
+        margin-left: 31%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 50px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:501px) and (max-width:600px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -70%;
+        width: 250%;
+    }
+    #Nombre{
+        width: 22em;
+        margin-left: -5em;
+    }
+    #Apellido{
+        width: 22em;
+        margin-left: -5em;
+    }
+    #Materia{
+        width: 22em;
+        margin-left: -5em;
+    }
+    .button {
+           width: 22em;
+    margin-left: -5em;
+    }
+    .imgPro {
+        width: 40%;
+        margin-left: 31%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 60px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:601px) and (max-width:700px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -70%;
+        width: 250%;
+    }
+    #Nombre {
+        width: 25em;
+        margin-left: -6em;
+    }
+    #Apellido{
+        width: 25em;
+        margin-left: -6em;
+    }
+    #Materia{
+        width: 25em;
+        margin-left: -6em;
+    }
+    .button {
+        width: 25em;
+        margin-left: -6em;
+    }
+    .imgPro {
+        width: 35%;
+        margin-left: 32%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 60px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:701px) and (max-width:800px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -70%;
+        width: 250%;
+    }
+    #Nombre {
+        width: 25em;
+        margin-left: -5em;
+    }
+    #Apellido{
+        width: 25em;
+        margin-left: -5em;
+    }
+    #Materia{
+        width: 25em;
+        margin-left: -5em;
+    }
+    .button {
+        width: 25em;
+        margin-left: -5em;
+    }
+    .imgPro {
+        width: 30%;
+        margin-left: 36%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 60px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:801px) and (max-width:900px){
+
+    .user{
+        min-width: 40px;
+    }
+    .user img{
+        display: none;
+     }
+    .imgTri {
+        width: 250%;
+        margin-bottom: 10%;
+        margin-left: -62%;
+        margin-top: 30%;
+    }
+    .navigation
+    {
+        width: 100%;
+        left: 100%;
+        z-index: 1000;
+    }
+    .navigation.active
+    {
+        width: 100%;
+        left: 0;
+    }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        position: fixed;
+        right: 1;
+        left: 55%;
+        color: var(--white);
+    }
+    .search label input {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        padding: 5px 20px;
+        padding-left: 35px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid var(--black2);
+        margin-left: 12%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .imgP {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .form-control{
+        width: 18em;
+        margin-left: -5em;
+    }
+    .label {
+        text-align: center;
+        margin-left: -65%;
+        width: 250%;
+    }
+    #Nombre {
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Apellido{
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Materia{
+        width: 25em;
+        margin-left: -3em;
+    }
+    .button {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .imgPro {
+        width: 25%;
+        margin-left: 39%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: 60px;
+        font-size: 1.2em;
+    }    
+    
+}
+
+@media (min-width:901px) and (max-width:990px){
+    .user{
+        min-width: 40px;
+    }
+     .navigation
+     {
+         position: fixed;
+         width: 300px;
+         height: 100%;
+         background: var(--blue);
+         border-left: 10px solid var(--blue);
+         transition: 0.5s;
+         overflow: hidden;
+     }
+
+     .navigation ul li
+     {
+         position: relative;
+         width: 100%;
+         list-style: none;
+         border-top-left-radius: 30px;
+         border-bottom-left-radius: 30px;
+     }
+     
+     .navigation ul li:hover,
+     .navigation ul li.hovered
+     {
+         background: var(--white) ;
+     }
+     
+     .navigation ul li:nth-child(1)
+     {
+         margin-bottom: 40px;
+         pointer-events: none;
+     }
+     
+     .navigation ul li a
+     {
+         position:relative;
+         display: block;
+         width: 100%;
+         display: flex;
+         text-decoration: none;
+         color: var(--white);
+     }
+     
+     .navigation ul li:hover a,
+     .navigation ul li.hovered a
+     {
+         color: var(--blue);
+     }
+     
+     .navigation ul li a .icon
+     {
+         position: relative;
+         display: block;
+         min-width: 60px;
+         height: 60px;
+         line-height: 70px;
+         text-align: center;
+     }
+     
+     .navigation ul li a .icon ion-icon
+     {
+         font-size: 1.75em;
+     }
+     
+     .navigation ul li a .title
+     {
+         position:relative;
+         display: block;
+         padding: 0 10px;
+         height: 60px;
+         line-height: 60px;
+         text-align: start;
+         white-space: nowrap;
+     }
+     
+     .navigation ul li:hover a::before,
+     .navigation ul li.hovered a::before
+     {
+         content: '';
+         position: absolute;
+         right: 0;
+         top: -50px;
+         width: 50px;
+         height: 50px;
+         background: transparent;
+         border-radius: 50%;
+         box-shadow: 35px 35px 0 10px var(--white);
+         pointer-events: none;
+     }
+     
+     .navigation ul li:hover a::after,
+     .navigation ul li.hovered a::after
+     {
+         content: '';
+         position: absolute;
+         right: 0;
+         bottom: -50px;
+         width: 50px;
+         height: 50px;
+         background: transparent;
+         border-radius: 50%;
+         box-shadow: 35px -35px 0 10px var(--white);
+         pointer-events: none;
+     }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        left: 1.5%;
+        color: #000;
+    }
+
+    .main.active #enunciado{
+        margin-left: -25%;
+        margin-top: -5%;
+    }
+
+    .main.active #padre{
+        margin-left: -18%;
+        margin-top: -6%;
+    }
+
+    .main.active .search label input{
+        margin-left: -12%;
+    }
+
+    .main.active .icono{
+        margin-left: 7%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .main.active .label {
+        text-align: center;
+        margin-left: -65%;
+        width: 155%;
+    }
+    #Nombre {
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Apellido{
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Materia{
+        width: 25em;
+        margin-left: -3em;
+    }
+    .button {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .main.active .imgPro {
+        width: 25%;
+        margin-left: 28%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        font-size: 1.2em;
+    }  
+    .main.active #Nombre {
+        width: 25em;
+        margin-left: -11em;
+    }
+    .main.active #Apellido {
+        width: 25em;
+        margin-left: -11em;
+    }
+    .main.active #Materia {
+        width: 25em;
+        margin-left: -11em;
+    }
+    .main.active .button {
+        width: 25em;
+        margin-left: -11em;
+    }
+    
+    
+}
+
+
+@media (min-width:991px) and (max-width:1300px){
+    .user{
+        min-width: 40px;
+    }
+     .navigation
+     {
+         position: fixed;
+         width: 300px;
+         height: 100%;
+         background: var(--blue);
+         border-left: 10px solid var(--blue);
+         transition: 0.5s;
+         overflow: hidden;
+     }
+
+     .navigation ul li
+     {
+         position: relative;
+         width: 100%;
+         list-style: none;
+         border-top-left-radius: 30px;
+         border-bottom-left-radius: 30px;
+     }
+     
+     .navigation ul li:hover,
+     .navigation ul li.hovered
+     {
+         background: var(--white) ;
+     }
+     
+     .navigation ul li:nth-child(1)
+     {
+         margin-bottom: 40px;
+         pointer-events: none;
+     }
+     
+     .navigation ul li a
+     {
+         position:relative;
+         display: block;
+         width: 100%;
+         display: flex;
+         text-decoration: none;
+         color: var(--white);
+     }
+     
+     .navigation ul li:hover a,
+     .navigation ul li.hovered a
+     {
+         color: var(--blue);
+     }
+     
+     .navigation ul li a .icon
+     {
+         position: relative;
+         display: block;
+         min-width: 60px;
+         height: 60px;
+         line-height: 70px;
+         text-align: center;
+     }
+     
+     .navigation ul li a .icon ion-icon
+     {
+         font-size: 1.75em;
+     }
+     
+     .navigation ul li a .title
+     {
+         position:relative;
+         display: block;
+         padding: 0 10px;
+         height: 60px;
+         line-height: 60px;
+         text-align: start;
+         white-space: nowrap;
+     }
+     
+     .navigation ul li:hover a::before,
+     .navigation ul li.hovered a::before
+     {
+         content: '';
+         position: absolute;
+         right: 0;
+         top: -50px;
+         width: 50px;
+         height: 50px;
+         background: transparent;
+         border-radius: 50%;
+         box-shadow: 35px 35px 0 10px var(--white);
+         pointer-events: none;
+     }
+     
+     .navigation ul li:hover a::after,
+     .navigation ul li.hovered a::after
+     {
+         content: '';
+         position: absolute;
+         right: 0;
+         bottom: -50px;
+         width: 50px;
+         height: 50px;
+         background: transparent;
+         border-radius: 50%;
+         box-shadow: 35px -35px 0 10px var(--white);
+         pointer-events: none;
+     }
+    .toggle
+    {
+        z-index: 10001;
+    }
+    .main.active .toggle
+    {
+        left: 1.5%;
+        color: #000;
+    }
+
+    .main.active #enunciado{
+        margin-left: -25%;
+        margin-top: -5%;
+    }
+
+    .main.active #padre{
+        margin-left: -18%;
+        margin-top: -6%;
+    }
+
+    .main.active .search label input{
+        margin-left: -12%;
+    }
+
+    .main.active .icono{
+        margin-left: 7%;
+    }
+    .icono{
+        margin-left: 11%;
+    }
+    .main.active .label {
+        text-align: center;
+        margin-left: -29%;
+        width: 155%;
+    }
+    #Nombre {
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Apellido{
+        width: 25em;
+        margin-left: -3em;
+    }
+    #Materia{
+        width: 25em;
+        margin-left: -3em;
+    }
+    .button {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .main.active .imgPro {
+        width: 25%;
+        margin-left: 37%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .search label ion-icon {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        font-size: 1.2em;
+    }  
+    .main.active #Nombre {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .main.active #Apellido {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .main.active #Materia {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .main.active .button {
+        width: 25em;
+        margin-left: -3em;
+    }
+    .imgPro {
+        width: 25%;
+        margin-left: 40%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+    }
+    .label {
+        text-align: center;
+        margin-left: -15%;
+        width: 155%;
+    }
+    
+    
+}
