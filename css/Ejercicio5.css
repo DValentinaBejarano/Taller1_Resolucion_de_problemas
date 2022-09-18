@@ -1,231 +1,34 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+/*img.card-img-top {
+    width: 43%;
 }
 
-:root
-{
-    --blue: #287bff;
-    --white: #fff;
-    --grey: #f5f5f5;
-    --black1: #222;
-    --black2: #999;
-}
-
-body
-{
-    min-height: 100vh;
-    overflow-x: hidden;
-}
-
-.container
-{
-    position: relative;
+.modal{
+    background-color: rgba(0,0,0,0.7);
     width: 100%;
-}
-
-.navigation
-{
+    height: 100%;
     position: fixed;
-    width: 300px;
-    height: 100%;
-    background: var(--blue);
-    border-left: 10px solid var(--blue);
-    transition: 0.5s;
-    overflow: hidden;
-}
-
-.navigation.active
-{
-    width: 80px;
-}
-
-.navigation ul li
-{
-    position: relative;
-    width: 100%;
-    list-style: none;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
-.navigation ul li:hover,
-.navigation ul li.hovered
-{
-    background: var(--white) ;
-}
-
-.navigation ul li:nth-child(1)
-{
-    margin-bottom: 40px;
-    pointer-events: none;
-}
-
-.navigation ul li a
-{
-    position:relative;
-    display: block;
-    width: 100%;
-    display: flex;
-    text-decoration: none;
-    color: var(--white);
-}
-
-.navigation ul li:hover a,
-.navigation ul li.hovered a
-{
-    color: var(--blue);
-}
-
-.navigation ul li a .icon
-{
-    position: relative;
-    display: block;
-    min-width: 60px;
-    height: 60px;
-    line-height: 70px;
-    text-align: center;
-}
-
-.navigation ul li a .icon ion-icon
-{
-    font-size: 1.75em;
-}
-
-.navigation ul li a .title
-{
-    position:relative;
-    display: block;
-    padding: 0 10px;
-    height: 60px;
-    line-height: 60px;
-    text-align: start;
-    white-space: nowrap;
-}
-
-.navigation ul li:hover a::before,
-.navigation ul li.hovered a::before
-{
-    content: '';
-    position: absolute;
-    right: 0;
-    top: -50px;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow: 35px 35px 0 10px var(--white);
-    pointer-events: none;
-}
-
-.navigation ul li:hover a::after,
-.navigation ul li.hovered a::after
-{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -50px;
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow: 35px -35px 0 10px var(--white);
-    pointer-events: none;
-}
-
-.main
-{
-    position: absolute;
-    width: calc(100% - 300px);
-    left: 300px;
-    min-height: 100vh;
-    background: var(--white);
-    transition: 0.5s;
-} 
-
-.main.active
-{
-    width: calc(100% - 80px);
-    left: 80px;
-}
-
-.topbar
-{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.toggle
-{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-    cursor: pointer;
-}
-
-.search
-{
-    position: relative;
-    width: 400px;
-    margin-top: 2%;
-}
-
-.search label
-{
-    position: relative;
-    width: 100%;
-}
-
-.search label input
-{
-    width: 100%;
-    height: 40px;
-    border-radius: 40px;
-    padding: 5px 20px;
-    padding-left: 35px;
-    font-size: 18px;
-    outline: none;
-    border: 1px solid var(--black2);
-}
-
-.search label ion-icon
-{
-    position: absolute;
+    z-index: 1;
     top: 0;
-    left: 10px;
-    font-size: 1.2em;
+    
+    padding-top: 200px;
+    display: none;
 }
 
-.user
-{
+.contenidoModal{
+    background-color: #FFFFFF;
+    width: 60%;
+    margin: auto;
     position: relative;
-    top: 30%;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    overflow: hidden;
-    cursor: pointer;
+    padding: 1rem;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
 }
 
-.user img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
+.contenidoModal .form-group {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+}*/
+
+
 
 .button{
     background-color: #287bff;
@@ -241,11 +44,6 @@ body
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     margin: 5px 20px 40px 20px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
 }
 
 .termino {
@@ -262,12 +60,6 @@ body
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     margin: 5px 20px 40px 20px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    width: 70%;
 }
 
 .arreglo{
@@ -324,7 +116,7 @@ body
     flex-direction: column;
     align-items: center;
     height: 25em;
-    width: 45%;
+    width: 140%;
 }
 
 .card__picture{
@@ -481,217 +273,4 @@ img.card-img-top {
 
 .cerrarModalRec2:hover{
     cursor: pointer;
-}
-
-@media (max-width: 991px){
-    
-    .navigation
-    {
-        left: -300px;
-    }
-    .navigation.active
-    {
-        width: 300px;
-        left: 0;
-    }
-    .main
-    {
-        width: 100%;
-        left: 0;
-    }
-    .main.active
-    {
-        left: 300px;
-    }
-    
-}
-
-@media (max-width: 480px){
-    .user{
-        min-width: 40px;
-    }
-    .navigation
-    {
-        width: 100%;
-        left: 100%;
-        z-index: 1000;
-    }
-    .navigation.active
-    {
-        width: 100%;
-        left: 0;
-    }
-    .toggle
-    {
-        z-index: 10001;
-    }
-    .main.active .toggle
-    {
-        position: fixed;
-        right: 1;
-        left: 55%;
-        color: var(--white);
-    }
-    
-
-}
-
-@media (min-width:410px) and (max-width:470px){
-
-    .user{
-        min-width: 40px;
-    }
-    .user img{
-        display: none;
-     }
-    .imgTri {
-        width: 250%;
-        margin-bottom: 10%;
-        margin-left: -62%;
-        margin-top: 30%;
-    }
-    .navigation
-    {
-        width: 100%;
-        left: 100%;
-        z-index: 1000;
-    }
-    .navigation.active
-    {
-        width: 100%;
-        left: 0;
-    }
-    .toggle
-    {
-        z-index: 10001;
-    }
-    .main.active .toggle
-    {
-        position: fixed;
-        right: 1;
-        left: 55%;
-        color: var(--white);
-    }
-    .search label input {
-        width: 100%;
-        height: 40px;
-        border-radius: 40px;
-        padding: 5px 20px;
-        padding-left: 35px;
-        font-size: 18px;
-        outline: none;
-        border: 1px solid var(--black2);
-        margin-left: 12%;
-    }
-    .card__item{
-        width: 115%;
-        margin-bottom: 5%;
-    }
-    
-}
-
-@media (min-width:471px) and (max-width:600px){
-    .user{
-        min-width: 40px;
-    }
-    .user img{
-        display: none;
-     }
-    .imgTri {
-        width: 250%;
-        margin-bottom: 10%;
-        margin-left: -62%;
-        margin-top: 30%;
-    }
-    .navigation
-    {
-        width: 100%;
-        left: 100%;
-        z-index: 1000;
-    }
-    .navigation.active
-    {
-        width: 100%;
-        left: 0;
-    }
-    .toggle
-    {
-        z-index: 10001;
-    }
-    .main.active .toggle
-    {
-        position: fixed;
-        right: 1;
-        left: 55%;
-        color: var(--white);
-    }
-    .search label input {
-        width: 100%;
-        height: 40px;
-        border-radius: 40px;
-        padding: 5px 20px;
-        padding-left: 35px;
-        font-size: 18px;
-        outline: none;
-        border: 1px solid var(--black2);
-        margin-left: 12%;
-    }
-    .card__item{
-        width: 115%;
-        margin-bottom: 5%;
-    }
-    
-}
-
-@media (min-width:601px) and (max-width:1000px){
-    .user{
-        min-width: 40px;
-    }
-    .user img{
-        display: none;
-     }
-    .imgTri {
-        width: 250%;
-        margin-bottom: 10%;
-        margin-left: -62%;
-        margin-top: 30%;
-    }
-    .navigation
-    {
-        width: 100%;
-        left: 100%;
-        z-index: 1000;
-    }
-    .navigation.active
-    {
-        width: 100%;
-        left: 0;
-    }
-    .toggle
-    {
-        z-index: 10001;
-    }
-    .main.active .toggle
-    {
-        position: fixed;
-        right: 1;
-        left: 55%;
-        color: var(--white);
-    }
-    .search label input {
-        width: 100%;
-        height: 40px;
-        border-radius: 40px;
-        padding: 5px 20px;
-        padding-left: 35px;
-        font-size: 18px;
-        outline: none;
-        border: 1px solid var(--black2);
-        margin-left: 12%;
-    }
-    .card__item{
-        width: 115%;
-        margin-bottom: 5%;
-    }
-    
 }
