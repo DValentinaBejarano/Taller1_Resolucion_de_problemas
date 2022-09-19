@@ -1,174 +1,5 @@
-/*img.card-img-top {
-    width: 43%;
-}
-
-.modal{
-    background-color: rgba(0,0,0,0.7);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    
-    padding-top: 200px;
-    display: none;
-}
-
-.contenidoModal{
-    background-color: #FFFFFF;
-    width: 60%;
-    margin: auto;
-    position: relative;
-    padding: 1rem;
-    animation-name: animarmodal;
-    animation-duration: 0.5s;
-}
-
-.contenidoModal .form-group {
-    width: 100%;
-}*/
-
-
-
-.button{
-    background-color: #287bff;
-    border: none;
-    color: white;
-    padding: 15px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    -webkit-box-shadow: 0 10px 30px 0 hsla(214, 71%, 38%, 0.479);
-    box-shadow: 0 10px 30px 0 hsla(214, 81%, 63%, 0.623);
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
-    margin: 5px 20px 40px 20px;
-}
-
-.termino {
-    background-color: #ffffff;
-    border: none;
-    color: black;
-    padding: 15px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    -webkit-box-shadow: 0 10px 30px 0 #5692ed;
-    box-shadow: 0 10px 30px 0 #56b1ed;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
-    margin: 5px 20px 40px 20px;
-}
-
-.arreglo{
-    display: flex;
-    margin-left: 13%;
-    flex-direction: column;
-}
-#titulo{
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
-
-.centrar{
-    margin-left: 40%
-}
-
-/* Card */
-
-.card__copy{
-    margin-top: 20px;
-}
-
-.card{
-    width: 55%;
-    margin: 0 auto;
-}
-
-.card__container{
-    width: 99%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
-    flex-wrap: wrap;
-    gap: 3.5em;
-    
-}
-
-#separadorC{
-    margin-top: 3%;
-}
-
-#separadorR{
-    margin-top: 3%;
-}
-
-.card__item{
-    padding: 20px;
-    background: rgb(210, 229, 247);
-    border-top: 5px solid #287bff;
-    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 25em;
-    width: 140%;
-}
-
-.card__picture{
-    background: var(--color-primary);
-    margin-top: 20px;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rectangulo{
-    background: var(--color-primary);
-    margin-top: 20px;
-    width: 100px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.card__title{
-    margin: 20px 0;
-    font-size: 1.5rem;
-}
-
-.card__paragraph{
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-
-.card__item:nth-last-of-type(1){
-    grid-area: card1;
-}
-
-.card__item:nth-last-of-type(2){
-    grid-area: card2;
-}
-
-.card__item:nth-last-of-type(3){
-    grid-area: card3;
-}
-
-.card__item:nth-last-of-type(4){
-    grid-area: card4;
-}
-
-/*Modal*/
 img.card-img-top {
-    width: 43%;
+    width: 35%;
 }
 
 .modal{
@@ -192,9 +23,80 @@ img.card-img-top {
     border-top: 10px solid #287bff;
 }
 
-.contenidoModal .form-group {
-    width: 100%;
+.card__item {
+    padding: 20px;
+    background: rgb(210, 229, 247);
+    border-top: 5px solid #287bff;
+    box-shadow: 0 0 3px rgb(0 0 0 / 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    width: 45%;
 }
+
+.contenidoModal .termino {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/*Botones Modal*/
+#calcularPC {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularAC {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularPT {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularAT {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularPCu {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularACu {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularPR {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+#calcularAR {
+    width: 7em;
+    padding: 1rem;
+    margin-left: 13px;
+}
+.tama{
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Cerrar modal circulo*/
 .cerrarModalC{

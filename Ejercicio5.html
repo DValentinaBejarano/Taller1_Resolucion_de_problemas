@@ -7,7 +7,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="stylesheet" href="/css/ejercicio5.css">
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Ejercicio5</title>
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
@@ -17,14 +17,15 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="../css/styles.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/ejercicio5.css">
+  <link href="/css/styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/ejercicio1.css">
 </head>
 
 <body id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
+      <a href="/index.html"><img src="https://cdn-icons-png.flaticon.com/512/786/786197.png"></a>
       <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -43,146 +44,162 @@
       </div>
     </div>
   </nav>
-            <!--Circulo-->
-            <section class="card">
-                <div class="card__container">
-                    <div class="card__item">
-                            <img src="https://img.genial.ly/5eff154b64e44a2d5175eaed/b5a855e1-a409-49a0-9281-0cb4e8e64b42.png" class="card__picture">
-                        <h3 class="card__title">Círculo</h3>
-                        <button id="perimetroC" href="#" class="button">Perímetro</button>
-                        <button id="areaC" href="#" class="button">Área</button>
-                    </div>
-                    <!--Modal-->
-                    <div id="perimetroCirculo" class="modal">
-                        <div class="contenidoModal">
-                        <span class="cerrarModalC"><ion-icon name="close-circle-outline"></ion-icon></span>
-                        <h2 id="titulo">Perímetro</h2>
-                        <div class="form-group">
-                            <input id="radio" type="number" class="termino" placeholder="Ingrese el radio del circulo">
-                            <button id="calcularPC" type="button" class="button">Calcular</button>
-                        </div>
-                        </div>
-                    </div>
-                    <div id="areaCirculo" class="modal">
-                        <div class="contenidoModal">
-                            <span class="cerrarModal"><ion-icon name="close-circle-outline"></ion-icon></span>
-                        <h2 id="titulo">Área</h2>
-                        <div class="form-group">
-                            <input id="radio" type="number" class="termino" placeholder="Ingrese el radio del circulo">
-                            <button id="calcularAC" type="button" class="button">Calcular</button>
-                        </div>
-                        </div>
-                    </div>
-    
-
-             <!--Triangulo-->
-                        <div class="card__item">
-                            <figure class="card__img">
-                                <img src="https://img.genial.ly/5eff154b64e44a2d5175eaed/30e6d788-dbfd-48e5-bd54-4753cde90877.png" class="card__picture">
-                            </figure>
-                            <h3 class="card__title">Triángulo</h3>
-                            <button id="perimetroT" href="#" class="button">Perímetro</button>
-                            <button id="areaT" href="#" class="button">Área</button>
-                        </div>
-                    <!--Modal-->
-                        <div id="perimetroTri" class="modal">
-                            <div class="contenidoModal">
-                                <span class="cerrarModalTri"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Perímetro</h2>
-                            <div class="form-group">
-                                <input id="lado1" type="number" class="termino arreglo" placeholder="Ingrese el primer lado del triangulo">
-                                <input id="lado2" type="number" class="termino arreglo" placeholder="Ingrese el segundo lado del triangulo">
-                                <input id="lado3" type="number" class="termino arreglo" placeholder="Ingrese el tercer lado del triangulo">
-                                <button id="calcularPT" type="button" class="button centrar">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-                        <div id="areaTri" class="modal">
-                            <div class="contenidoModal">
-                                <span class="cerrarModalTri2"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Área</h2>
-                            <div class="form-group">
-                                <input id="baseT" type="number" class="termino" placeholder="Ingrese la base del triangulo">
-                                <input id="alturaT" type="number" class="termino" placeholder="Ingrese la altura lado del triangulo">
-                                <button id="calcularAT" type="button" class="button">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-
-            <!--Rectangulo-->
-                        <div id="separadorR" class="card__item">
-                            <figure class="card__img">
-                                <img src="https://img.genial.ly/5eff154b64e44a2d5175eaed/3f81ce32-ca24-4051-b0e7-d0b3ebe1a02f.png" class="rectangulo">
-                            </figure>
-                            <h3 class="card__title">Rectángulo</h3>
-                            <button id="perimetroRec" href="#" class="button">Perímetro</button>
-                            <button id="areaRec" href="#" class="button">Área</button>
-                        </div>
-                        <div id="perimetroRectan" class="modal">
-                            <div class="contenidoModal">
-                            <span class="cerrarModalRec"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Perímetro</h2>
-                            <div class="form-group">
-                                <input id="baseR" type="text" class="termino arreglo" placeholder="Ingrese la base del Rectangulo">
-                                <input id="alturaR" type="text" class="termino arreglo" placeholder="Ingrese la altura lado del Rectangulo">
-                                <button id="calcularPR" type="button" class="button centrar">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-                    
-                        <div id="areaRectan" class="modal">
-                            <div class="contenidoModal">
-                            <span class="cerrarModalRec2"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Área</h2>
-                            <div class="form-group">
-                                <input id="baseAR" type="text" class="termino arreglo" placeholder="Ingrese la base del Rectangulo">
-                                <input id="alturaAR" type="text" class="termino arreglo" placeholder="Ingrese la altura lado del Rectangulo">
-                                <button id="calcularAR" type="button" class="button centrar">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-
-            <!--Cuadrado-->
-                        <div id="separadorC"class="card__item">
-                            <figure class="card__img">
-                                <img src="https://img.genial.ly/5eff154b64e44a2d5175eaed/2344dcc6-4b2c-4bec-a8d0-f3b1e62dd0d6.png" class="card__picture">
-                            </figure>
-                            <h3 class="card__title">Cuadrado</h3>
-                            <button id="perimetroCu" href="#" class="button">Perímetro</button>
-                            <button id="areaCu" href="#" class="button">Área</button>
-                        </div>
-                    <!--Modal-->
-                        <div id="perimetroCua" class="modal">
-                            <div class="contenidoModal">
-                            <span class="cerrarModalCua"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Perímetro</h2>
-                            <div class="form-group">
-                                <input id="ladoC" type="number" class="termino" placeholder="Ingrese el lado del cuadrado">
-                                <button id="calcularPCu" type="button" class="button">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div id="areaCua" class="modal">
-                            <div class="contenidoModal">
-                            <span class="cerrarModalCua2"><ion-icon name="close-circle-outline"></ion-icon></span>
-                            <h2 id="titulo">Área</h2>
-                            <div class="form-group">
-                                <input id="ladoCA" type="number" class="termino" placeholder="Ingrese el lado del cuadrado">
-                                <button id="calcularACu" type="button" class="button">Calcular</button>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  <!-- Masthead-->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <div class="row">
+        <div class="taCard">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="https://trabajitosblog.files.wordpress.com/2020/12/figuras-geometricas-07.png" alt="Card image cap"><br><br>
+              <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+            </div>
+          </div>
         </div>
+        <div class="taCard">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="https://trabajitosblog.files.wordpress.com/2020/12/figuras-geometricas-10.png" alt="Card image cap"><br><br>
+              <a id="perimetroT" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaT" href="#" class="btn btn-secondary">Área</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="taCard">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="https://trabajitosblog.files.wordpress.com/2020/12/figuras-geometricas-08.png" alt="Card image cap"><br><br>
+              <a id="perimetroCu" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaCu" href="#" class="btn btn-secondary">Área</a>
+            </div>
+          </div>
+        </div>
+        <div class="taCard">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="https://trabajitosblog.files.wordpress.com/2020/12/figuras-geometricas-09.png" alt="Card image cap"><br><br>
+              <a id="perimetroRec" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaRec" href="#" class="btn btn-secondary">Área</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Circulo-->
+    <div id="perimetroCirculo" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalC"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Perímetro</h2>
+        <div class="form-group">
+          <input id="radio" type="number" class="termino" placeholder="Ingrese el radio del circulo">
+          <button id="calcularPC" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
     </div>
 
+    <div id="areaCirculo" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModal"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Área</h2>
+        <div class="form-group">
+          <input id="radio" type="text" class="termino" placeholder="Ingrese el radio del circulo">
+          <button id="calcularAC" type="button"  class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="js/ejercicio5.js"></script>
+    <!--Triangulo-->
+    <div id="perimetroTri" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalTri"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Perímetro</h2>
+        <div class="form-group">
+          <input id="lado1" type="number" class="termino" placeholder="Ingrese el primer lado del triangulo">
+          <input id="lado2" type="number" class="termino" placeholder="Ingrese el segundo lado del triangulo">
+          <input id="lado3" type="number" class="termino" placeholder="Ingrese el tercer lado del triangulo">
+          <button id="calcularPT" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
 
+    <div id="areaTri" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalTri2"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Área</h2>
+        <div class="form-group">
+          <input id="baseT" type="text" class="termino" placeholder="Ingrese la base del triangulo">
+          <input id="alturaT" type="text" class="termino" placeholder="Ingrese la altura lado del triangulo">
+          <button id="calcularAT" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Cuadrado-->
+    <div id="perimetroCua" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalCua"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Perímetro</h2>
+        <div class="form-group">
+          <input id="ladoC" type="text" class="termino" placeholder="Ingrese el lado del cuadrado">
+          <button id="calcularPCu" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="areaCua" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalCua2"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Área</h2>
+        <div class="form-group">
+          <input id="ladoCA" type="text" class="termino" placeholder="Ingrese el lado del cuadrado">
+          <button id="calcularACu" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+     <!--Rectangulo-->
+     <div id="perimetroRectan" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalRec"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2>Perímetro</h2>
+        <div class="form-group">
+          <input id="baseR" type="text" class="termino" placeholder="Ingrese la base del rectangulo">
+          <input id="alturaR" type="text" class="termino" placeholder="Ingrese la altura lado del rectangulo">
+          <button id="calcularPR" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="areaRectan" class="modal">
+      <div class="contenidoModal">
+        <span class="cerrarModalRec2"><ion-icon name="close-circle-outline"></ion-icon></span>
+        <h2 class="tama">Área</h2>
+        <div class="form-group">
+          <input id="baseAR" type="text" class="termino" placeholder="Ingrese la base del Rectangulo">
+          <input id="alturaAR" type="text" class="termino" placeholder="Ingrese la altura lado del Rectangulo">
+          <button id="calcularAR" type="button" class="btn btn-secondary">Calcular</button>
+        </div>
+      </div>
+    </div>
+ 
+
+  <script src="../js/ejercicio5.js"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>

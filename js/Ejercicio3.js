@@ -7,10 +7,10 @@ averiguar.addEventListener('click',()=>{
     parseFloat(angulo1);parseFloat(angulo2);parseFloat(angulo3);
 
       if(angulo1==angulo2 && angulo1 ==angulo3){
-            alert(`Es un triángulo equilátero, ¡Sus tres ángulos internos son iguales!`)
+            Swal.fire(`Es un triángulo equilátero, ¡Sus tres ángulos internos son iguales!`)
       }else if(angulo1==angulo2 || angulo2==angulo3 || angulo1==angulo3){
-            alert(`Es un triángulo isósceles, ¡Tiene dos lados con la misma longitud!`);
+            Swal.fire(`Es un triángulo isósceles, ¡Tiene dos lados con la misma longitud!`);
       }else{
-            alert(`Es un triángulo escaleno, ¡Posee todos los lados y ángulos diferentes!`);
+            Swal.fire(`Es un triángulo escaleno, ¡Posee todos los lados y ángulos diferentes!`);
       }  
 })

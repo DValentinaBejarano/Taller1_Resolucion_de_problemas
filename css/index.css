@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: var(--Ubuntu-sans-serif);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url("https://st4.depositphotos.com/7507140/39889/v/600/depositphotos_398897258-stock-illustration-spanish-language-vector-template-for.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
