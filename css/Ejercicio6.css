@@ -388,6 +388,13 @@ h2, .h2 {
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
+
+@media (min-width:300px)and (max-width: 500px){
+  .formulario {
+		display: block;
+    margin-top: 4em;
+	}
+}
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
@@ -544,7 +551,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
-  width: 5em;
+  width: 2em;
 }
 
 table {

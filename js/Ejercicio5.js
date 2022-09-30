@@ -26,7 +26,7 @@
         const radio=document.getElementById("radio").value;
         parseInt(radio);
         let resultado = radio * 3.1416 * 2;
-        Swal.fire(`El perímetro del circulo es ${resultado.toFixed(2)}`);
+        swal(`El perímetro del circulo es ${resultado.toFixed(2)}`);
     })
 
     //Area
@@ -54,7 +54,7 @@
         const radio=document.getElementById("radio").value;
         parseInt(radio);
         let resultado = 3.1416 * (radio *  radio);
-        Swal.fire(`El área del circulo es ${resultado.toFixed(2)}`);
+        swal(`El área del circulo es ${resultado.toFixed(2)}`);
     })
 
 //Triangulo
@@ -86,7 +86,7 @@
         let lado3=document.getElementById("lado3").value;
         parseInt(lado1,lado2,lado3);
         let resultado = (parseInt(lado1) + parseInt(lado2) + parseInt(lado3));
-        Swal.fire(`El perímetro del triangulo es ${resultado}`);
+        swal(`El perímetro del triangulo es ${resultado}`);
     })
 
 
@@ -117,7 +117,7 @@
         let alturaT=document.getElementById("alturaT").value;
         parseInt(baseT,alturaT);
         let resultado = (baseT * alturaT)/2;
-        Swal.fire(`El área del triangulo es ${resultado}`);
+        swal(`El área del triangulo es ${resultado}`);
     })
 
 //Cuadrado
@@ -146,7 +146,7 @@
         let ladoC=document.getElementById("ladoC").value;
         parseInt(ladoC);
         let resultado = ladoC * 4;
-        Swal.fire(`El perímetro del cuadrado es ${resultado}`);
+        swal(`El perímetro del cuadrado es ${resultado}`);
     })
 
 
@@ -175,7 +175,7 @@
         let ladoCA=document.getElementById("ladoCA").value;
         parseInt(ladoCA);
         let resultado = ladoCA * ladoCA;
-        Swal.fire(`El área del triangulo es ${resultado}`);
+        swal(`El área del triangulo es ${resultado}`);
     })
 
 //Rectangulo
@@ -205,7 +205,7 @@
         let alturaR=document.getElementById("alturaR").value;
         parseInt(baseR,alturaR);
         let resultado = 2 *(parseInt(baseR) + parseInt(alturaR));
-        Swal.fire(`El perímetro del rectangulo es ${resultado}`);
+        swal(`El perímetro del rectangulo es ${resultado}`);
     })
 
     //Area
@@ -234,5 +234,5 @@
         let alturaAR=document.getElementById("alturaAR").value;
         parseInt(baseAR,alturaAR);
         let resultado = baseAR * alturaAR;
-        Swal.fire(`El perímetro del triangulo es ${resultado}`);
+        swal(`El perímetro del triangulo es ${resultado}`);
     })

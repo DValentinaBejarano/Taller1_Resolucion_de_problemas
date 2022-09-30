@@ -12,31 +12,31 @@ boton.addEventListener('click', function()
     if(rango == 1 && rango1 == 5)
     {       
         let valor = (grados - 32)/1.8;
-        Swal.fire(`Los ${grados}º Fahrenheit a Celsius es ${valor}`);
+        swal(`Los ${grados}º Fahrenheit a Celsius es ${valor}`);
     }
     else if(rango == 1 && rango1 == 6)
     {
         let valor = 5/9*(grados - 32) + 273.15;
-        Swal.fire(`Los ${grados}º Fahrenheit a Kelvin es ${valor.toFixed(2)}`);
+        swal(`Los ${grados}º Fahrenheit a Kelvin es ${valor.toFixed(2)}`);
     }
     else if(rango == 2 && rango1 == 4)
     {
         let valor = (grados * 1.8) + 32;
-        Swal.fire(`Los ${grados}º Celsius a Fahrenheit es ${valor.toFixed(2)}`);
+        swal(`Los ${grados}º Celsius a Fahrenheit es ${valor.toFixed(2)}`);
     }
     else if(rango == 2 && rango1 == 6)
     {
         let valor = parseFloat(grados) + 273.15;
-        Swal.fire(`Los ${grados}º Celsius a Fahrenheit es ${valor.toFixed(2)}`);     
+        swal(`Los ${grados}º Celsius a Fahrenheit es ${valor.toFixed(2)}`);     
     }
     else if(rango == 3 && rango1 == 4)
     {
         let valor = (grados - 273.15) * 9/5 + 32
-        Swal.fire(`los ${grados}º Kelvin a Fahrenheit es ${valor.toFixed(2)}`);  
+        swal(`los ${grados}º Kelvin a Fahrenheit es ${valor.toFixed(2)}`);  
     }
     else if(rango == 3 && rango1 == 5)
     {
         let valor = parseFloat(grados) - 273.15;
-        Swal.fire(`los ${grados}º Kelvin a Celcius son: ${valor.toFixed(2)}`);  
+        swal(`los ${grados}º Kelvin a Celcius son: ${valor.toFixed(2)}`);  
     }
 })
